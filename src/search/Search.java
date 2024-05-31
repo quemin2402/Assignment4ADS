@@ -45,4 +45,8 @@ public abstract class Search<V> {
         path.push(source);
         return path;
     }
+
+    public V getSource() {
+        return source;
+    }
 }
