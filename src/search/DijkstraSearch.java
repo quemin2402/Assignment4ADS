@@ -1,3 +1,8 @@
+package search;
+
+import graph.WeightedGraph;
+import search.Search;
+
 import java.util.*;
 /**
  * Implements the Dijkstra's algorithm for finding the shortest paths from a single source vertex
@@ -11,7 +16,7 @@ public class DijkstraSearch<V> extends Search<V> {
     private final WeightedGraph<V> graph; // The graph on which the search is performed
 
     /**
-     * Constructs a DijkstraSearch instance and initializes the search process.
+     * Constructs a search.DijkstraSearch instance and initializes the search process.
      * @param graph The weighted graph on which to perform the search
      * @param source The starting vertex for the pathfinding
      */

@@ -1,14 +1,19 @@
+package search;
+
+import graph.WeightedGraph;
+import search.Search;
+
 import java.util.*;
 /**
- * This class implements the Breadth-First Search (BFS) algorithm for graphs.
- * Also, it extends the abstract Search class, utilizing its structure to perform BFS.
+ * This class implements the Breadth-First search.Search (BFS) algorithm for graphs.
+ * Also, it extends the abstract search.Search class, utilizing its structure to perform BFS.
  *
  * @param <V> the vertex type
  */
 public class BreadthFirstSearch<V> extends Search<V> {
 
     /**
-     * Method constructs a BreadthFirstSearch instance and initiates the BFS process from the source vertex.
+     * Method constructs a search.BreadthFirstSearch instance and initiates the BFS process from the source vertex.
      * @param graph the graph on which to perform BFS
      * @param source the starting vertex for BFS
      */

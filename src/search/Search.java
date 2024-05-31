@@ -1,3 +1,5 @@
+package search;
+
 import java.util.*;
 /**
  * Abstract base class for search algorithms in graphs.

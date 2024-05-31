@@ -1,3 +1,5 @@
+package graph;
+
 import java.util.HashMap;
 import java.util.Map;
 /**
@@ -9,7 +11,7 @@ public class Vertex<V> {
     private Map<Vertex<V>, Double> adjacentVertices; // Adjacent vertices with their weights
 
     /**
-     * Constructs a new Vertex with the specified data.
+     * Constructs a new graph.Vertex with the specified data.
      * @param data Data to be stored in the vertex.
      */
     public Vertex(V data) {

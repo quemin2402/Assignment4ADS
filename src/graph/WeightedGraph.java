@@ -1,3 +1,5 @@
+package graph;
+
 import java.util.*;
 /**
  * WeighedGraph class represents a generic weighted graph.
@@ -8,7 +10,7 @@ public class WeightedGraph<V> {
     private boolean isDirected;
 
     /**
-     * Constructs a new WeightedGraph.
+     * Constructs a new graph.WeightedGraph.
      * @param isDirected true if the graph is directed, false if undirected.
      */
     public WeightedGraph(boolean isDirected) {
